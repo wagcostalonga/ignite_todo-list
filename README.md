@@ -19,7 +19,7 @@
 <br />
 
 <p align="center">
-  <img alt="ToDo List" src="https://i.ibb.co/b291jF3/screencapture-localhost-5173-2023-03-25-08-57-23-1.png" />
+  <img alt="ToDo List" src="https://i.ibb.co/r33Ybyv/screencapture-localhost-5173-2023-03-25-09-12-50.png" />
 </p>
 
 <br />
