@@ -1,0 +1,75 @@
+.inputNewTask {
+    width: 46rem;
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+
+    position: absolute;
+    transform: translate(0%, -50%);
+}
+
+.inputNewTask input {
+    flex: 1;
+    height: 3.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    background-color: var(--gray-500);
+    padding: 1rem;
+    color: var(--gray-300);
+}
+
+.inputNewTask input:focus {
+    box-shadow: 0 0 0 2px var(--blue);
+    color: var(--white);
+}
+
+.inputNewTask button {
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: var(--blue-dark);
+    border: 0;
+    border-radius: 8px;
+    color: var(--white);
+    font-weight: 700;
+    padding: 1rem;
+    transition: background 0.2s ease;
+}
+
+.inputNewTask button:not(:disabled):hover {
+    background-color: var(--blue);
+}
+
+.inputNewTask button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.markers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    margin-top: 5.625rem;
+    margin-bottom: 1.5rem;
+}
+
+.markers span {
+    background-color: var(--gray-400);
+    color: var(--white);
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    margin-left: 0.5rem;
+}
+
+.markers .createdTasks {
+    color: var(--blue);
+}
+
+.markers .concludedTasks {
+    color: var(--purple);
+}

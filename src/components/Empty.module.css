@@ -1,0 +1,26 @@
+.empty {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 0;
+    border-radius: 8px;
+    border-top: 1px solid var(--gray-400);
+
+}
+
+.empty img {
+    width: 3.5rem;
+    height: auto;
+}
+
+.empty p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.empty p strong {
+    display: block;
+}
